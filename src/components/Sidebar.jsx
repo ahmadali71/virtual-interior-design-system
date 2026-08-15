@@ -188,7 +188,7 @@ export default function Sidebar({ currentPage, onNavigate, isOpen, onClose }) {
   return (
     <>
       {/* Mobile Overlay */}
-      {isOpen && <div className="sidebar-overlay" onClick={onClose} />}
+      <div className={`sidebar-overlay ${isOpen ? 'sidebar-overlay-open' : ''}`} onClick={onClose} />
 
       <aside
         className={`sidebar ${isOpen ? 'sidebar-open' : ''}`}

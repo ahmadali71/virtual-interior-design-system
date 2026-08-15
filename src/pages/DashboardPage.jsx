@@ -57,7 +57,7 @@ export default function DashboardPage({ onNavigate }) {
       </div>
 
       {/* Top Main Section (Hero Upload Card + Stats Column) */}
-      <div className="dashboard-top-grid" style={{ display: 'grid', gridTemplateColumns: '1.6fr 1fr', gap: '24px' }}>
+      <div className="dashboard-top-grid" style={{ display: 'grid', gap: '24px' }}>
         {/* Upload Room Image Card (Purple Banner as in Fig 6.3.1) */}
         <div style={{
           background: 'linear-gradient(135deg, #6366f1 0%, #4f46e5 100%)',

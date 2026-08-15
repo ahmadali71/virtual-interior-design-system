@@ -157,7 +157,7 @@ export default function DesignStudioPage({ onNavigate }) {
       )}
 
       {/* Main Workspace (3D Canvas + Right Tool Palette) */}
-      <div className="studio-main-grid" style={{ flex: 1, display: 'grid', gridTemplateColumns: '1fr 340px', gap: '16px', minHeight: 0 }}>
+      <div className="studio-main-grid" style={{ flex: 1, display: 'grid', gap: '16px', minHeight: 0 }}>
         {/* 3D Canvas Box */}
         <div style={{
           position: 'relative',
