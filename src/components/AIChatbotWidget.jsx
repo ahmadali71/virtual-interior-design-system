@@ -22,7 +22,7 @@ async function getAIResponse(userMessage) {
       'Content-Type': 'application/json'
     },
     body: JSON.stringify({
-      model: 'google/gemma-3-27b-it:free',
+      model: 'meta-llama/llama-3.1-8b-instruct:free',
       messages: [
         { role: 'system', content: SYSTEM_PROMPT },
         { role: 'user', content: userMessage }
